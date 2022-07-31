@@ -1,0 +1,30 @@
+
+.container{
+    background-color: white;
+    position: absolute;
+    top: 5vmin;
+    left: 50vmin;
+    padding: 1vmin;
+    border-radius: 2vmin;
+    width: 100vmin; 
+    background: linear-gradient(
+        to right, 
+        rgb(75, 148, 191), 
+        rgb(162, 29, 142)
+      );
+}
+    
+.l{
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 2vmin;
+    color: white;
+    margin: 8vmin;
+    cursor: pointer;
+}
+
+.l:hover{
+    position: relative;
+    /* margin: 57px; */
+    opacity: 1;
+}

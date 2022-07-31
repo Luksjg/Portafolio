@@ -1,0 +1,28 @@
+article {
+  background: linear-gradient(
+    to right, 
+    rgb(120, 183, 219), 
+    rgb(255, 46, 224)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 150px;
+  text-align: center;
+  cursor: default;
+  margin-bottom: 2vmin;
+}
+
+h1 {
+  font-size: 12vmin;
+  line-height: 1.1;
+}
+
+
+h1, p, body {
+  margin: 0;
+}
+
+p {
+  font-family: "Dank Mono", ui-monospace, monospace;
+  font-size: 5vmin;
+}

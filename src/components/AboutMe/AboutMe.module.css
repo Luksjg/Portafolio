@@ -1,0 +1,54 @@
+.imgB{
+    /* position:absolute; */
+    position: relative;
+    height:40vmin;
+    width:40vmin;
+    top: 17vmin;
+    left : 15vmin;
+    z-index: 1;
+}
+
+.img{
+    position:absolute;
+    left: 20vmin;
+    top: 22vmin;
+    width: 30vmin;
+    border-radius: 100%;
+    /* z-index: -1; */
+}
+
+.p{
+    position: relative;
+    top: -18vmin;
+    color: white;
+    opacity: 0.9;
+    cursor: default;
+    justify-content: center;
+    left: 64vmin;
+    width: 120vmin;
+    font-size: 4vmin;
+}
+
+.l{
+    padding: 1vmin;
+    margin-left: 4vmin;
+    font-size: 4vmin;
+    border: 1px solid rgb(155, 40, 107);
+    color: white;
+    padding: 2vmin;
+    border-radius: 3vmin;
+}
+
+.lc{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2vmin;
+}
+
+.l:hover{
+    border: 1px solid rgb(97, 14, 63);
+    position: relative;
+    top: -4px;
+    box-shadow: 0px 4px 4px 0px rgba(246, 22, 216, 0.5);
+    transition: 300ms;
+}
