@@ -8,13 +8,13 @@ export default function Projects(){
 
     const mockImagenes = [
         {
-            link:"https://pf-eccomerce.vercel.app/",
+            link:"https://api-weather-two.vercel.app/",
             url:'https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png',
             name:"APP Weather",
             description:"Application that uses an external API to search weather information for all cities"
         },
         {
-            link:"https://pf-eccomerce.vercel.app/",
+            link:"",
             url:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1200px-Earth_Western_Hemisphere_transparent_background.png',
             name:"APP Countries",
             description:"application with a rest api with country information, filters by territorial information and relational database with activity proposals by country"
