@@ -10,16 +10,16 @@
 
 .img{
     position:absolute;
-    left: 20vmin;
-    top: 22vmin;
-    width: 30vmin;
-    border-radius: 100%;
+    left: 22vmin;
+    top: 20vmin;
+    width: 26vmin;
+    border-radius: 10vmin;
     /* z-index: -1; */
 }
 
 .p{
     position: relative;
-    top: -18vmin;
+    top: -16vmin;
     color: white;
     opacity: 0.9;
     cursor: default;

@@ -12,7 +12,7 @@ export default function AboutMe(){
           </div>
           <div className={style.imgC}>
             <img src={"https://data.whicdn.com/images/349051544/original.gif"} alt="border" className={style.imgB}/>
-            <img src={"https://img.lovepik.com/free_png/33/55/63/27f58PICA64xAAh27p58PIC6T_PIC2018.png_860.png"} alt="selfie" className={style.img}/>
+            <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1659281760/cvpic-removebg-preview_lj2p2p.png"} alt="selfie" className={style.img}/>
           </div>
           <div>
             <p className={style.p}>I am a full stack JavaScript developer specialized in React and passionate about fronted and rest APIs, graduated from the SoyHenry bootcamp, currently looking for my first job in the IT world and with a lot of potential to show</p>
