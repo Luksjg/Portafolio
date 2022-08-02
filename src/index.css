@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-*::selection{background: #bc13fe;   
+*::selection{background: #f06ecb;   
               color: rgb(0, 0, 0); 
             }
