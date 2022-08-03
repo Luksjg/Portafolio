@@ -8,7 +8,9 @@ export default function Cv(){
         <div>
             <NavBar/>
             <div className={style.imgC}>
-                <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1659250680/CV_1.0_nzo390.png"} alt="cv" className={style.img}/>
+                <a href="https://drive.google.com/file/d/1N3aW1u7jw-t5pSqvAFEm-GKnMoVl_SPJ/view?usp=sharing" rel="noreferrer" target="_blank">
+                    <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1659551093/CV_1.0_efyfgb.png"} alt="cv" className={style.img}/>
+                </a>
             </div>
             <div>
                 <div className={style.logoC}>
