@@ -32,7 +32,7 @@ export default function Projects(){
             description:"It is a small project that has just started but I hope to be able to expand with my skills over time"
         },
         {
-            link:"https://portafolio-umber-eta.vercel.app/",
+            link:"https://ig-post-component.vercel.app/",
             url:'https://www.pngmart.com/files/21/Instagram-Logo-PNG-Image.png',
             name:"IG post card",
             description:"Instagram post component created for an interview test, using HTML, JS, CSS and swiperJS. done in one day"
