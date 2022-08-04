@@ -30,6 +30,12 @@ export default function Projects(){
             url:'https://images.fineartamerica.com/images/artworkimages/medium/2/retro-80s-90s-vaporwave-palm-trees-gift-pink-blue-design-design-dc-designs-suamaceir-transparent.png',
             name:"This portafolio",
             description:"It is a small project that has just started but I hope to be able to expand with my skills over time"
+        },
+        {
+            link:"https://portafolio-umber-eta.vercel.app/",
+            url:'https://www.pngmart.com/files/21/Instagram-Logo-PNG-Image.png',
+            name:"IG post card",
+            description:"Instagram post component created for an interview test, using HTML, JS, CSS and swiperJS. done in one day"
         }
     ];
 
