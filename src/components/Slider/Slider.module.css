@@ -80,7 +80,7 @@
 
 @media only screen and (max-width: 900px){
 	.text{
-		top: 70vmin;
+		top: 85vmin;
 		left: 20%;
 		right: 20%;
 		margin-bottom: 200px;
@@ -92,7 +92,7 @@
 	}
 
 	.container{
-		margin-bottom: 45vmin;
+		margin-bottom: 75vmin;
 	}
 
 }

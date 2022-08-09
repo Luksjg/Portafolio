@@ -64,12 +64,14 @@
 
     .img{
         max-width: 60vmin;
+        margin-top: 5vmin;
         position: relative;
-        right: 100%;
+        right: 95%;
+        overflow: hidden;
     }
 
     .logoC{
-        margin-top: 110vmin;
+        margin-top: 120vmin;
         text-align: center;
     }
 

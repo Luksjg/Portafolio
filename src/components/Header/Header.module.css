@@ -29,7 +29,7 @@ p {
 
 @media only screen and (max-width: 900px){
   article{
-    padding-top: 50vmin;
-    padding-bottom: 40vmin;
+    padding-top: 60vmin;
+    padding-bottom: 55vmin;
   }
 }
