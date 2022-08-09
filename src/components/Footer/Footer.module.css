@@ -1,9 +1,10 @@
 .imgfooter{
     margin-top: 10px;
-    display: flex;
-    bottom: -150px;
+    /* display: flex; */
+    bottom: 0px;
+    /* bottom: -150px; */
 	height: 30vmin;
-	overflow: hidden;
+	/* overflow: hidden; */
 
 }
 
@@ -13,4 +14,10 @@
     top:60px;
     opacity: 0.7;
     left:40%;
+}
+
+@media only screen and (max-width: 900px){
+    .sunfooter{
+        top: 30px;
+    }
 }

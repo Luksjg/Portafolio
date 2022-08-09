@@ -58,7 +58,26 @@
 
 .logoC{
     margin-top: 30vmin;
-    display: inline-block;
-    width:30px;
-    flex-direction: column;    
+}
+
+@media only screen and (max-width: 900px){
+
+    .img{
+        max-width: 60vmin;
+        position: relative;
+        right: 100%;
+    }
+
+    .logoC{
+        margin-top: 110vmin;
+        text-align: center;
+    }
+
+    .logo{
+        max-width: 10vmin;
+        display: inline-block;
+        margin: 2vmin;
+    }
+
+
 }

@@ -12,7 +12,7 @@ export default function Cv(){
                     <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1659551093/CV_1.0_efyfgb.png"} alt="cv" className={style.img}/>
                 </a>
             </div>
-            <div>
+            <div className={style.container}>
                 <div className={style.logoC}>
                     <a href="https://github.com/Luksjg" rel="noreferrer" target="_blank">
                         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo" className={style.logo}/>

@@ -1,10 +1,9 @@
 .container {
-	/* width: 100%; */
-	/* height: 100%; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 5vmin;
 }
 
 .slide {
@@ -32,7 +31,6 @@
 	height: 28vmin;
 	display: flex;
 	justify-content:baseline;
-	/* max-height: 30vmin; */
 }
 
 .imgC:hover{
@@ -63,7 +61,8 @@
 	position: absolute;
 	width: 70vmin;
     margin: 1vmin;
-	left:105vmin;
+	top: 30vmin;
+	left:100vmin;
 }
 
 .name{
@@ -77,6 +76,23 @@
 	position: absolute;
 	font-size: 3vmin;
 	opacity: 0.8;
-	/* right: 50px; */
-    /* position:sticky */
+}
+
+@media only screen and (max-width: 900px){
+	.text{
+		top: 70vmin;
+		left: 20%;
+		right: 20%;
+		margin-bottom: 200px;
+		padding-bottom:200px;
+	}
+
+	.img{
+		margin-bottom: 75vmin;
+	}
+
+	.container{
+		margin-bottom: 45vmin;
+	}
+
 }

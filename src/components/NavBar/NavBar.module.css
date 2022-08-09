@@ -1,12 +1,16 @@
 
+.separator{
+    display: block;
+    padding-top: 5vmin;
+
+}
 .container{
-    background-color: white;
-    position: absolute;
-    top: 5vmin;
-    left: 50vmin;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-around;
     padding: 1vmin;
     border-radius: 2vmin;
-    width: 100vmin; 
     background: linear-gradient(
         to right, 
         rgb(75, 148, 191), 
@@ -19,13 +23,19 @@
     text-decoration: none;
     font-size: 2vmin;
     color: white;
-    margin: 8vmin;
     cursor: pointer;
 }
 
 .l:hover{
     position: relative;
-    /* margin: 57px; */
+    bottom: 1px;
     opacity: 1;
     color: white;
 }
+
+@media only screen and (max-width: 900px){
+    .l{
+        font-size: 3vmin;
+    }
+}
+

@@ -5,6 +5,7 @@ import style from "./NavBar.module.css"
 export default function NavBar(){
     return(
         <div>
+                <p className={style.separator}></p>
             <div className={style.container}>
                 <Link to={"/"}>
                     <label className={style.l}>

@@ -26,3 +26,10 @@ p {
   font-family: "Dank Mono", ui-monospace, monospace;
   font-size: 6vmin;
 }
+
+@media only screen and (max-width: 900px){
+  article{
+    padding-top: 50vmin;
+    padding-bottom: 40vmin;
+  }
+}

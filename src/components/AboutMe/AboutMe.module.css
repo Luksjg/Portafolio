@@ -1,54 +1,82 @@
 .imgB{
-    /* position:absolute; */
     position: relative;
     height:40vmin;
     width:40vmin;
-    top: 17vmin;
+    top: 10vmin;
     left : 15vmin;
     z-index: 1;
 }
 
+
 .img{
     position:absolute;
     left: 22vmin;
-    top: 20vmin;
+    top: 18vmin;
     width: 26vmin;
     border-radius: 10vmin;
-    /* z-index: -1; */
-}
+} 
 
 .p{
-    position: relative;
-    top: -16vmin;
-    color: white;
-    opacity: 0.9;
-    cursor: default;
-    justify-content: center;
-    left: 64vmin;
-    width: 120vmin;
     font-size: 4vmin;
+    color:white;
+    position: relative;
+    margin-left: 58vmin;
+    bottom: 25vmin;
+    margin-right: 5vmin;
 }
 
 .l{
-    padding: 1vmin;
-    margin-left: 4vmin;
-    font-size: 4vmin;
-    border: 1px solid rgb(155, 40, 107);
-    color: white;
-    padding: 2vmin;
     border-radius: 3vmin;
+    color: white;
+    border: 1px solid rgb(155, 40, 107);
+    padding: 10px;
+    font-size: 4vmin;
 }
 
 .lc{
     display: flex;
+    overflow:hidden;
     justify-content: space-around;
-    margin-right: 2vmin;
 }
 
-.l:hover{
+.l:hover{  
     border: 1px solid rgb(97, 14, 63);
     position: relative;
     top: -4px;
     box-shadow: 0px 4px 4px 0px rgba(246, 22, 216, 0.5);
     transition: 300ms;
+}
+
+@media screen and (max-width:900px) {
+
+    .imgB{
+        top: 7vmin;
+        left : 30%;
+    }
+    
+    
+    .img{
+        left: 37%;
+        top: 20vmin;
+    } 
+
+    .p{  
+        position: relative;
+        margin-left: 8vmin;
+        bottom: -10vmin;
+        margin-right: 8vmin;
+        margin-bottom: 12vmin;
+    }
+
+    .lc{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .l{
+        display: block;
+        margin: 10px;
+    }
 }
