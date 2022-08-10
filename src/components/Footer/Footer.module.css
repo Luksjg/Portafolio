@@ -11,13 +11,15 @@
 .sunfooter{
     width: 20%;
     position: relative;
-    top:60px;
+    top:30px;
     opacity: 0.7;
     left:40%;
 }
 
 @media only screen and (max-width: 900px){
     .sunfooter{
-        top: 30px;
+        top: 15px;
+        width: 30%;
+        left: 36%;
     }
 }
