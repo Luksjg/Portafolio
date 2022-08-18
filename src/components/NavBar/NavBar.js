@@ -24,7 +24,7 @@ export default function NavBar(){
                 </Link>
                 <Link to={"/cv"}>
                     <label className={style.l}>
-                       Literally CV 
+                        Contact me
                     </label>
                 </Link>
             </div>

@@ -15,7 +15,8 @@ export default function AboutMe(){
             <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1659281760/cvpic-removebg-preview_lj2p2p.png"} alt="selfie" className={style.img}/>
           </div>
           <div>
-            <p className={style.p}>I am a full stack JavaScript developer specialized in React and passionate about fronted and rest APIs, graduated from the SoyHenry bootcamp, currently looking for my first job in the IT world and with a lot of potential to show</p>
+            <p className={style.p}>
+I introduce myself, I am a full stack JavaScript developer specialized in React and passionate about rest APIs and the front-end, graduated from the SoyHenry bootcamp with more than 800 hours between studies and projects, currently I dedicate a full time to improve my skills as a programmer , you can contact me in the "cv" section if you have any questions. </p>
           </div>
           <div className={style.lc}>
               <label className={style.l}>JavaScript</label>
