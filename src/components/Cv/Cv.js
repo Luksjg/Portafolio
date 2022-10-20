@@ -9,7 +9,7 @@ export default function Cv(){
             <NavBar/>
             <div className={style.imgC}>
                 <a href="https://drive.google.com/file/d/1N3aW1u7jw-t5pSqvAFEm-GKnMoVl_SPJ/view?usp=sharing" rel="noreferrer" target="_blank">
-                    <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1660789276/CV_1.0_mj4ohw.png"} alt="cv" className={style.img}/>
+                    <img src={"https://res.cloudinary.com/dbgreenshop/image/upload/v1666293804/CV_1.0_wtija9.jpg"} alt="cv" className={style.img}/>
                 </a>
             </div>
             <div className={style.container}>

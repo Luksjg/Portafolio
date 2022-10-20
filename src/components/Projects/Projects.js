@@ -14,7 +14,7 @@ export default function Projects(){
             description:"Application that uses an external API to search weather information for all cities"
         },
         {
-            link:"",
+            link:"https://portafolio-umber-eta.vercel.app/",
             url:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1200px-Earth_Western_Hemisphere_transparent_background.png',
             name:"APP Countries",
             description:"application with a rest api with country information, filters by territorial information and relational database with activity proposals by country"
@@ -36,6 +36,19 @@ export default function Projects(){
             url:'https://www.pngmart.com/files/21/Instagram-Logo-PNG-Image.png',
             name:"IG post card",
             description:"Instagram post component created for an interview test, using HTML, JS, CSS and swiperJS. done in one day"
+        },
+        {
+            link:"https://portafolio-umber-eta.vercel.app/",
+            url:'https://www.pngmart.com/files/21/Instagram-Logo-PNG-Image.png',
+            name:"Telegram clone",
+            description:"Telegram clone with login, real-time chat, groups and more details"
+        }
+        ,
+        {
+            link:"https://portafolio-umber-eta.vercel.app/",
+            url:'https://www.pngmart.com/files/21/Instagram-Logo-PNG-Image.png',
+            name:"Task app",
+            description:"native application for android and ios, storing and modifying tasks in database"
         }
     ];
 
